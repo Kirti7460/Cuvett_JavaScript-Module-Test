@@ -1,0 +1,38 @@
+#frame1 {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#choices .choice {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #8CC461;
+  color: #FFFFFF;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#scores {
+  margin-top: 20px;
+}
+
+#play-again {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #8CC461;
+  color: #FFFFFF;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #frame1 {
+      max-width: 90%; /* Adjust the maximum width for smaller screens */
+  }
+}
